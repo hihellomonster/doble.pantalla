@@ -21,7 +21,7 @@ $("form").onsubmit = function() {
         iframe.src = url;
 
         iframe.onload = function() {
-            console.timeEnd(url + " load");
+            console.timeEnd(" load");
         }
     }
 
